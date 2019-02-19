@@ -13,7 +13,7 @@ get '/hometown' do
   "My hometown is #{hometown}"
 end
 
-  get '/favorite-song'
+  get '/favorite-song' do
   "My favorite song is #{favorite-song}"
 end
 
