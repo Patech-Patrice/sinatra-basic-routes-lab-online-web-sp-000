@@ -1,7 +1,7 @@
 require_relative 'config/environment'
 
 
- class App < Sinatra::Base	class App < Sinatra::Base
+ class App < Sinatra::Base
 
    get '/name' do
     "My name is __"
@@ -15,4 +15,4 @@ require_relative 'config/environment'
     "My favorite song is __"
   end
 
- end	
+ end
